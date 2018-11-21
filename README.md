@@ -36,8 +36,6 @@ npm run dev
 
 Automaticamente se te abrira en tu navegador una vista especificamente en la url "http://localhost:8080/"
 
-# Proyecto: Grafo de Fuerzas
-
 Esta prueba sirve para determinar las capacidades a nivel logico en javascript, y las capacidades a nivel de frontend con el framework Vue JS.
 
 ## Explicación de los desafíos
