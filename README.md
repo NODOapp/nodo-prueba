@@ -38,7 +38,7 @@ Automaticamente se te abrira en tu navegador una vista especificamente en la url
 
 Esta prueba sirve para determinar las capacidades a nivel logico en javascript, y las capacidades a nivel de frontend con el framework Vue JS.
 
-## Explicación de los desafíos
+## Desafíos
 
 ### 1. Logica Javascript
 * En la carpeta raiz de la prueba se encuentra un archivo llamado `logic-text.js`, en el encontraremos lo siguiente:
