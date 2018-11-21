@@ -1,11 +1,9 @@
 <template>
-	<div>
-    <!--<article v-for="character in characters">
-      <h5>Nombre: {{ character.name }}</h5>
-      <h5>Casa: {{ character.house }}</h5>
-      <h5>Apodo: {{ character.slug }}</h5>
-    </article> !-->
-    <table>
+  <div>
+    <h1 v-show="isLoading">
+      Cargando personajes ...
+    </h1>
+    <table v-show="!isLoading">
       <tr>
         <th>Nombre</th>
         <th>Casa</th>
@@ -17,25 +15,31 @@
         <td> <button @click="goToDetail(character._id)">Ver detalle</button> </td>
       </tr>
     </table>
-	</div>
+  </div>
 </template>
 
 
 <script>
   import { listsAllCharacters } from '../services/got.service.js'
+
   export default {
     name: 'list-component',
 
     data () {
       return {
-        characters: []
+        characters: [],
+        isLoading: false
       }
     },
 
     created () {
+      console.log(this.isLoading)
+      this.isLoading = true
       listsAllCharacters()
         .then(res => {
+          console.log(this.isLoading)
           this.characters = res
+          this.isLoading = false
         })
     },
 
