@@ -62,6 +62,6 @@ Esta prueba sirve para determinar las capacidades a nivel logico en javascript, 
 
 * Si por algun inconveniente no se maneja bien con Vue JS sientase libre de realizar este mismo ejercicio con otro framework de su preferencia.
 
-## LA PRUEBA NO TIENE LÍMITE DE TIEMPO, AUNQUE CUALQUIER ENTREGA POR SOBRE LOS 2 DIAS SERÁ EVALUADA DE FORMA MÁS RIGUROSA
+## LA PRUEBA NO TIENE LÍMITE DE TIEMPO, AUNQUE CUALQUIER ENTREGA POR SOBRE LOS 1 DIAS SERÁ EVALUADA DE FORMA MÁS RIGUROSA
 
 # ¡ÉXITO!
