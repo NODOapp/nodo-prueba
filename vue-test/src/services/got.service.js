@@ -19,6 +19,12 @@ export function listsAllCharacters () {
   })
 }
 
+/**
+ * @description get the detail of a specific GoT character.
+ * @method getACharacter
+ * @param {string} id. the "_id" of the GoT character.
+ * @return {Obj} response, an object with the information of all the GoT characters.
+ */
 export function getACharacter (id) {
   // CODE HERE
 }
