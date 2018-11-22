@@ -56,12 +56,14 @@ Esta prueba sirve para determinar las capacidades a nivel logico en javascript, 
 
 * El desafio consta con crear el componete para mostrar la informacion del detalle del personaje, este componente debe ser visualizado al accionar el boton `"ver detalle"`, encontrado en la tabla principal.
 
+* Como bonus, si desea aplicar otros recursos del api sientase libre de hacerlo.
+
 * Cabe destacar que en el resto del cuerpo de este desafio se encuentran las dependencias y archivos necesarios para su funcionamiento `(leer README dentro de la carpeta)`.
 
-* Sientase libre de darle estilos y utilizar cualquier libreria que pueda facilitarle el cumplimiento de este desafio `(por favor documentarla en el readme del proyecto)`
+* Sientase libre de darle estilos al diseño y utilizar cualquier libreria que pueda facilitarle el cumplimiento de este desafio `(por favor documentarla en el readme del proyecto)`
 
 * Si por algun inconveniente no se maneja bien con Vue JS sientase libre de realizar este mismo ejercicio con otro framework de su preferencia.
 
-## LA PRUEBA NO TIENE LÍMITE DE TIEMPO, AUNQUE CUALQUIER ENTREGA POR SOBRE LOS 1 DIAS SERÁ EVALUADA DE FORMA MÁS RIGUROSA
+## LA PRUEBA NO TIENE LÍMITE DE TIEMPO, AUNQUE CUALQUIER ENTREGA POR SOBRE 1 DIA SERÁ EVALUADA DE FORMA MÁS RIGUROSA
 
 # ¡ÉXITO!
