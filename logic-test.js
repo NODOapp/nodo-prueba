@@ -73,7 +73,7 @@ function listTeamsIds () {
   return teams.map((client) => client.id)
 }
 
-// 1 Arreglo con los nombres de los equipos y el pais al que pertenecen, ordenados y agrupados por su pais de origen.
+// 1 Arreglo con los nombres de los equipos y el pais al que pertenecen, ordenados alphabeticamente por el nombre de su pais de origen.
 function listTeamsByCountry () {
   // CODE HERE
 }
@@ -83,17 +83,32 @@ function sortTeamsByWins () {
   // CODE HERE
 }
 
-// 3 Arreglo de objetos en donde se muestre el nombre de las ligas y la sumatoria de las victorias en champions league de los equipos que pertenecen a ellas.
+// 3 Arreglo de objetos en donde se muestre el nombre de las ligas y la sumatoria de las victorias de los equipos que pertenecen a ellas.
 function leaguesWithWins () {
   // CODE HERE
 }
 
 // 4 Objeto en que las claves sean los nombres de las ligas y los valores el nombre del equipo con la menor cantidad de victorias en champions.
-function teamsByLeagueWithLestWins () {
+function leaguesWithTeamWithLestWins () {
   // CODE HERE
 }
 
-// 5 Agregar un nuevo equipo con datos ficticios a "teams", asociarlo a la liga de francia y agregar un total de 4 victorias en champions.
+// 5 Objeto en que las claves sean los nombres de las ligas y los valores el nombre del equipo con la mayor cantidad de victorias en champions.
+function leaguesWithTeamWithMostWins () {
+  // CODE HERE
+}
+
+// 6 Arreglo con los nombres de las ligas ordenadas de mayor a menor por la cantidad de victorias de sus equipos.
+function sortLeaguesByTeamsByWins () {
+  // CODE HERE
+}
+
+// 7 Arreglo con los nombres de las ligas ordenadas de mayor a menor por la cantidad de equipos que participan en ellas.
+function sortLeaguesByTeams () {
+  // CODE HERE
+}
+
+// 8 Agregar un nuevo equipo con datos ficticios a "teams", asociarlo a la liga de francia y agregar un total de 4 victorias en champions.
 // Luego devolver el lugar que ocupa este equipo en el ranking de la pregunta 2.
 // No modificar arreglos originales para no alterar las respuestas anteriores al correr la solución
 function newTeamRanking () {
@@ -110,6 +125,12 @@ console.log(sortTeamsByWins())
 console.log('Pregunta 3')
 console.log(leaguesWithWins())
 console.log('Pregunta 4')
-console.log((teamsByLeagueWithLestWins()))
+console.log((leaguesWithTeamWithLestWins()))
 console.log('Pregunta 5')
+console.log((leaguesWithTeamWithMostWins()))
+console.log('Pregunta 6')
+console.log((sortLeaguesByTeamsByWins()))
+console.log('Pregunta 7')
+console.log((sortLeaguesByTeams()))
+console.log('Pregunta 8')
 console.log((newTeamRanking()))
