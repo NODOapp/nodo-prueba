@@ -27,32 +27,32 @@ const leagues = [
 ]
 
 const teamsByLeague = [
-  { teamId: 1, leagueId: 4 },
+  { teamId: 12, leagueId: 5 },
+  { teamId: 6, leagueId: 3 },
   { teamId: 2, leagueId: 5 },
   { teamId: 3, leagueId: 4 },
   { teamId: 4, leagueId: 2 },
-  { teamId: 5, leagueId: 1 },
-  { teamId: 6, leagueId: 3 },
-  { teamId: 7, leagueId: 5 },
   { teamId: 8, leagueId: 1 },
-  { teamId: 9, leagueId: 1 },
   { teamId: 10, leagueId: 6 },
+  { teamId: 5, leagueId: 1 },
+  { teamId: 7, leagueId: 5 },
+  { teamId: 9, leagueId: 1 },
   { teamId: 11, leagueId: 2 },
-  { teamId: 12, leagueId: 5 },
+  { teamId: 1, leagueId: 4 },
   { teamId: 13, leagueId: 7 }
 ]
 
 const winsByTeams = [
-  { teamId: 1, wins: 13 },
-  { teamId: 2, wins: 7 },
-  { teamId: 3, wins: 5 },
-  { teamId: 4, wins: 5 },
-  { teamId: 5, wins: 5 },
-  { teamId: 6, wins: 4 },
-  { teamId: 7, wins: 3 },
-  { teamId: 8, wins: 3 },
-  { teamId: 9, wins: 1 },
   { teamId: 10, wins: 2 },
+  { teamId: 6, wins: 4 },
+  { teamId: 5, wins: 5 },
+  { teamId: 1, wins: 13 },
+  { teamId: 7, wins: 3 },
+  { teamId: 4, wins: 5 },
+  { teamId: 8, wins: 3 },
+  { teamId: 2, wins: 7 },
+  { teamId: 9, wins: 1 },
+  { teamId: 3, wins: 5 },
   { teamId: 11, wins: 1 },
   { teamId: 12, wins: 2 },
   { teamId: 13, wins: 1 }
@@ -73,7 +73,7 @@ function listTeamsIds () {
   return teams.map((client) => client.id)
 }
 
-// 1 Arreglo con los nombres de los equipos ordenados y agrupados por su pais de origen.
+// 1 Arreglo con los nombres de los equipos y el pais al que pertenecen, ordenados y agrupados por su pais de origen.
 function listTeamsByCountry () {
   // CODE HERE
 }

@@ -25,6 +25,9 @@
   export default {
     name: 'list-component',
 
+    /**
+     * @description the data block represents all the local variable of this component.
+     */
     data () {
       return {
         characters: [],
@@ -32,20 +35,30 @@
       }
     },
 
+    /**
+     * @description the create function is the first one to be execute when the component is being created (see vue js lifecycle).
+     */
     created () {
-      console.log(this.isLoading)
       this.isLoading = true
       listsAllCharacters()
         .then(res => {
-          console.log(this.isLoading)
           this.characters = res
           this.isLoading = false
         })
     },
 
+    /**
+     * @description the methods block represents all the local methods of this component.
+     */
     methods: {
+
+      /**
+       * @description get the detail of a character from the GoT API.
+       * @param {string} id. the "_id" of the character that we are going to request.
+       * @method goToDetail
+       */
       goToDetail(id) {
-        console.log(id)
+        // CODE HERE
       }
     }
   }

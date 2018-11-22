@@ -1,10 +1,15 @@
 import mainService from './main.service'
 
-const pokemonService = {
+const gotService = {
   listsAllCharacters,
   getACharacter
 }
 
+/**
+ * @description get all GoT characters.
+ * @method listsAllCharacters
+ * @return {Obj} response, an object with the information of all the GoT characters.
+ */
 export function listsAllCharacters () {
   return mainService.get('/characters').then((res) => {
     return res.data
@@ -15,12 +20,7 @@ export function listsAllCharacters () {
 }
 
 export function getACharacter (id) {
-  return mainService.get(`/characters/byId/${id}`).then((res) => {
-    return res.data
-  }).catch((error) => {
-    console.error(error)
-    return { error: error }
-  })
+  // CODE HERE
 }
 
-export default pokemonService
+export default gotService

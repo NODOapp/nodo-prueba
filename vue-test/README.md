@@ -17,7 +17,8 @@ La carpeta "components", contiene todos los componentes utilizados (List.Vue), a
 
 Dentro de la carpeta "services", se encuentran 2 archivos:
     1. main.service, es el archivo principal donde se tiene la url base del api
-    2. got.service, contiene un conjunto de funciones encargadas cada una de realizar un llamado a un endpoint en especifico del api de GoT.
+    2. got.service, contiene un conjunto de funciones encargadas cada una de realizar un llamado a un endpoint en especifico del api de GoT, 
+       en este archivo se debe programar la logica de la funcion "getACharacter" para solicitar el detalle de un caracter de GoT.
 
 El archivo App.Vue, es el archivo principal que presenta Vue JS, donde se van instanciando cada uno de los componentes que se desea visualizar (con la ayuda del vue-router "https://router.vuejs.org/guide/")
 
