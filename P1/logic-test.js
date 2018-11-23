@@ -64,16 +64,16 @@ const winsByTeams = [
     - Se debe programar un algoritmo para cada método y que este retorne lo requerido.
     - Debe usar nombres explicativos para sus variables.
     - Usar sintaxis ES6.
-    - Puede utilizar funciones auxiliares como apoyo para tener una descomposicion de codigo mas clara al momento de lectura.
+    - Puede utilizar funciones auxiliares como apoyo para tener una descomposición de código mas clara al momento de lectura.
     - Su prueba debe ejecutarse sin errores con: node logic-test.js
 */
 
-// 0 Arreglo con los ids de los equipos (funcion de ejemplo)
+// 0 Arreglo con los ids de los equipos (función de ejemplo)
 function listTeamsIds () {
   return teams.map((client) => client.id)
 }
 
-// 1 Arreglo con los nombres de los equipos y el pais al que pertenecen, ordenados alphabeticamente por el nombre de su pais de origen.
+// 1 Arreglo con los nombres de los equipos y el país al que pertenecen, ordenados alfabéticamente por el nombre de su país de origen.
 function listTeamsByCountry () {
   // CODE HERE
 }
@@ -108,18 +108,18 @@ function sortLeaguesByTeams () {
   // CODE HERE
 }
 
-// 8 Agregar un nuevo equipo con datos ficticios a "teams", asociarlo a la liga de francia y agregar un total de 4 victorias en champions.
+// 8 Agregar un nuevo equipo con datos ficticios a "teams", asociarlo a la liga de Francia y agregar un total de 4 victorias en champions.
 // Luego devolver el lugar que ocupa este equipo en el ranking de la pregunta 2.
 // No modificar arreglos originales para no alterar las respuestas anteriores al correr la solución
 function newTeamRanking () {
   // CODE HERE
 }
 
-// 9 Realice una funcion que retorne una promesa con los nombres de los equipos en upper case.
-// haga la llamada a la funcion creada desde esta funcion y asignele la respuesta a la variable response.
-// recuerde que debe esperar el retorno de funcion asincrona para que su resultado pueda ser mostrado por el
-// console.log. Utilize async await para la llada asincrona a la funcion.
-// NOTA: solo debe crear la funcion asincrona y agregar la llamada en la siguiente funcion.
+// 9 Realice una función que retorne una promesa con los nombres de los equipos en upper case.
+// haga la llamada a la función creada desde esta función y asignarle la respuesta a la variable response.
+// recuerde que debe esperar el retorno de función asíncrona para que su resultado pueda ser mostrado por el
+// console.log. Utilice async await para la llamada asíncrona a la función.
+// NOTA: solo debe crear la función asíncrona y agregar la llamada en la siguiente función.
 async function getTeamsNamesAsUpperCase () {
   let response
   // ------MAKE AWAIT CALL HERE------
