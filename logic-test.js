@@ -116,14 +116,17 @@ function newTeamRanking () {
 }
 
 // 9 Realice una funcion que retorne una promesa con los nombres de los equipos en upper case.
-// y realice la llamada asincrona a la misma desde esta funcion.
-// recuerde que debe esperar el retorno de dicha funcion para luego finalizar el resto
-// del codigo de esta funcion.
+// y realice la llamada asincrona a la misma desde esta funcion y asignele el retorno a la variable response.
+// recuerde que debe esperar el retorno de dicha funcion para que su resultado pueda ser mostrado por el 
+// console.log
+// NOTA: solo debe crear la funcion asincrona y agregar la llamada en la siguiente funcion.
 async function getTeamsNamesAsUpperCase () {
+  let response
   // ------MAKE AWAIT CALL HERE------
 
   // --------------------------------
-  console.log('DONE !!')
+  console.log('response:')
+  console.log(response)
 }
 
 // Impresión de soluciones. No modificar.
