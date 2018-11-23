@@ -24,7 +24,7 @@ git clone https://github.com/../nodo-prueba.git
 Debes instalar las dependencias para el ejercicio #02:
 
 ```sh
-cd nodo-test/vue-test/
+cd nodo-prueba/P2/vue-test/
 npm install
 ```
 
