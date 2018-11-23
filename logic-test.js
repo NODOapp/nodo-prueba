@@ -115,6 +115,17 @@ function newTeamRanking () {
   // CODE HERE
 }
 
+// 9 Realice una funcion que retorne una promesa con los nombres de los equipos en upper case.
+// y realice la llamada asincrona a la misma desde esta funcion.
+// recuerde que debe esperar el retorno de dicha funcion para luego finalizar el resto
+// del codigo de esta funcion.
+async function getTeamsNamesAsUpperCase () {
+  // ------MAKE AWAIT CALL HERE------
+
+  // --------------------------------
+  console.log('DONE !!')
+}
+
 // Impresión de soluciones. No modificar.
 console.log('Pregunta 0')
 console.log(listTeamsIds())
@@ -134,3 +145,5 @@ console.log('Pregunta 7')
 console.log((sortLeaguesByTeams()))
 console.log('Pregunta 8')
 console.log((newTeamRanking()))
+console.log('Pregunta 9')
+console.log(getTeamsNamesAsUpperCase())
