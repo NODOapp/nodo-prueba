@@ -34,36 +34,36 @@ Para ejecutar la aplicación del ejercicio #02, una vez ubicado en la raiz de la
 npm run dev
 ```
 
-Automaticamente se te abrira en tu navegador una vista especificamente en la url "http://localhost:8080/"
+Automáticamente se te abrirá en tu navegador una vista específicamente en la url "http://localhost:8080/"
 
-Esta prueba sirve para determinar las capacidades a nivel logico en javascript, y las capacidades a nivel de frontend con el framework Vue JS.
+Esta prueba sirve para determinar las capacidades a nivel lógicas en javascript, y las capacidades a nivel de frontend con el framework Vue JS.
 
 ## Desafíos
 
 ### 1. Logica Javascript
-* En la carpeta raiz de la prueba se encuentra un archivo llamado `logic-text.js`, en el encontraremos lo siguiente:
+* En la carpeta de la prueba se encuentra una carpeta llamada "P1" donde tenemos un archivo llamado `logic-text.js`, en el encontraremos lo siguiente:
 
 * 1 Arreglo con información de equipos de fútbol, 1 Arreglo con información de ligas de fútbol europeas, 1 arreglo asociando equipos de fútbol con las ligas donde compiten y finalmente un arreglo donde se asocian equipos de fútbol con la cantidad de victorias en la uefa champions league
 
-* Este primer ejercicio consiste en realizar la logica de un conjunto de funciones donde se piden cierto tipo de informacion que abarcan 1 2 3 o los 4 arreglos en conjunto.
+* Este primer ejercicio consiste en realizar la lógica de un conjunto de funciones donde se piden cierto tipo de información que abarcan 1 2 3 o los 4 arreglos en conjunto.
 
 ### 2. Capacidades en frontend (Vue JS)
-* Dentro de la carpeta `vue-test`, existe el cuerpo de un proyecto realizado con `vue-cli (https://cli.vuejs.org/guide/)`, donde se muestra un listado de todos los personajes ficticios de la serie Game Of Thrones.
+* Dentro de la carpeta "P2", encontraremos un proyecto llamado `vue-test`, en el cual existe la base de un proyecto realizado con `vue-cli (https://cli.vuejs.org/guide/)`, donde se muestra un listado de todos los personajes ficticios de la serie Game Of Thrones.
 
-* La idea de este desafio es consultar el api publica de game of thrones `(https://api.got.show/doc/)`, donde se debe extraer el detalle de cada personaje a traves de la siguiente url `(https://api.got.show/api/characters/byId/:id)` donde `":id"` es el id del personaje al cual se desea obtener la informacion.
+* La idea de este desafío es consultar el api publica de game of thrones `(https://api.got.show/doc/)`, donde se debe extraer el detalle de cada personaje a través de la siguiente url `(https://api.got.show/api/characters/byId/:id)` donde `":id"` es el id del personaje al cual se desea obtener la información.
 
-* Como base ya el sistema realiza una consulta a la url `(https://api.got.show/api/characters/)`, donde se obtienen todos los personajes del api, y el cual contiene informacion generica de los personajes `(donde se incluye el ":id" del personaje)`.
+* Como base ya el sistema realiza una consulta a la url `(https://api.got.show/api/characters/)`, donde se obtienen todos los personajes del api, y el cual contiene información genérica de los personajes `(donde se incluye el ":id" del personaje)`.
 
-* El desafio consta con crear el componete para mostrar la informacion del detalle del personaje, este componente debe ser visualizado al accionar el boton `"ver detalle"`, encontrado en la tabla principal.
+* El desafío consta con crear el componente para mostrar la información del detalle del personaje, este componente debe ser visualizado al accionar el botón `"ver detalle"`, encontrado en la tabla principal.
 
-* Como bonus, si desea aplicar otros recursos del api sientase libre de hacerlo.
+* Como bonus, si desea aplicar otros recursos del api siéntase libre de hacerlo.
 
-* Cabe destacar que en el resto del cuerpo de este desafio se encuentran las dependencias y archivos necesarios para su funcionamiento `(leer README dentro de la carpeta)`.
+* Cabe destacar que en el resto del cuerpo de este desafío se encuentran las dependencias y archivos necesarios para su funcionamiento `(leer README dentro de la carpeta)`.
 
-* Sientase libre de darle estilos al diseño y utilizar cualquier libreria que pueda facilitarle el cumplimiento de este desafio `(por favor documentarla en el readme del proyecto)`
+* Siéntase libre de darle estilos al diseño y utilizar cualquier librería que pueda facilitarle el cumplimiento de este desafío `(por favor documentarla en el readme del proyecto)`
 
-* Si por algun inconveniente no se maneja bien con Vue JS sientase libre de realizar este mismo ejercicio con otro framework de su preferencia.
+* Si por algún inconveniente no se maneja bien con Vue JS siéntase libre de realizar este mismo ejercicio con otro framework de su preferencia.
 
-## LA PRUEBA NO TIENE LÍMITE DE TIEMPO, AUNQUE CUALQUIER ENTREGA POR SOBRE 1 DIA SERÁ EVALUADA DE FORMA MÁS RIGUROSA
+# LA PRUEBA NO TIENE LÍMITE DE TIEMPO, AUNQUE CUALQUIER ENTREGA POR SOBRE 1 DÍA SERÁ EVALUADA DE FORMA MÁS RIGUROSA
 
 # ¡ÉXITO!
